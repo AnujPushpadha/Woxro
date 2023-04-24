@@ -17,7 +17,7 @@ const Navbar = () => {
     <>
       <header>
         <section className=" hidden lg:block">
-          <ul className="bg-black/100 px-6 py-2  cursor-pointer text-white flex flex-row justify-between w-full box-border text-xs ">
+          <ul className="bg-black/100 px-6 py-2  cursor-pointer text-white flex flex-row justify-between w-full box-border text-sm ">
             <li>
               <strong>Now Hiring </strong>: Looking for a job in Full Stack
               Development?
@@ -35,7 +35,7 @@ const Navbar = () => {
           </ul>
         </section>
 
-        <section className="flex flex-row items-center justify-between px-4 p-2 max-h-400 md:max-h-550 bg-white ">
+        <section className="flex flex-row items-center justify-between px-6 p-3 max-h-400 md:max-h-550 bg-white ">
           <img
             // className="w-100 sm:w-50"
             className="w-[160px]"
@@ -84,8 +84,8 @@ const Navbar = () => {
           )}
         </section>
 
-        <nav className="bg-black text-white  py-2 px-3 hidden md:block text-sm">
-          <div className="flex justify-between items-center">
+        <nav className="bg-black text-white  py-2 px-3 hidden md:block text-base">
+          <div className="  flex justify-evenly">
             <a href="#">Home</a>
             <a href="#">About Us</a>
             <a href="#">About Us Services</a>
@@ -110,11 +110,11 @@ const Navbar = () => {
               className=" z-10  w-full top-0 p-4 md:p-8 absolute  left-0 m-auto text-white flex flex-col items-center justify-center h-full
 "
             >
-              <center className="text-4xl md:text-6xl font-bold">
+              <center className="text-4xl md:text-7xl font-bold">
                 Kerala's Leading Web Design Company
               </center>
               <center>
-                <p className=" mt-14  text-gray-200 font-bold">
+                <p className=" mt-14 text-lg text-gray-200 font-bold">
                   Global Web Designing Company That Provides Full-cycle Software
                   Development Services, E-commerce & Mobile App Development
                   Services.
