@@ -54,7 +54,7 @@ const Navbar = () => {
                 <h1 className="text-xl font-bold">Menu</h1>
                 <FontAwesomeIcon
                   icon={faTimes}
-                  className="text-gray-600 cursor-pointer"
+                  className="text-white cursor-pointer"
                   onClick={toggleMenu}
                 />
               </div>
