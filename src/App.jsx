@@ -1,4 +1,5 @@
 import "./App.css";
+import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 
@@ -9,6 +10,7 @@ function App() {
         <div className="flex-col  justify-center mx-auto max-w-[1150px]">
           <Navbar />
           <Services />
+          <Contact />
         </div>
       </div>
     </>
