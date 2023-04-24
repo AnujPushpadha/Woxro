@@ -84,7 +84,7 @@ const Navbar = () => {
           )}
         </section>
 
-        <nav className="bg-black text-white  py-2 px-3 hidden md:block text-base">
+        <nav className="bg-grey text-white  py-2 px-3 hidden md:block text-base">
           <div className="  flex justify-evenly">
             <a href="#">Home</a>
             <a href="#">About Us</a>
